@@ -1,0 +1,39 @@
+.form{
+    width: 100%;
+    max-width: 450px;
+    min-width: 200px;
+    margin: auto;
+}
+
+.form div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5em 0;
+    font-weight: 600;
+}
+
+.form input[type=text]{
+    width: 100%;
+    margin: 10px 0;
+    padding: 0.7em;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.form input[type=submit]{
+    background-color: #61DAFB;
+    width: 100%;
+    padding: 0.7em;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    border: 1px solid #61DAFB;
+    margin-bottom: 2em;
+}
+
+.form input[type=submit]:hover{
+    background-color: #fff;
+    border-color: black;
+}
